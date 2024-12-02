@@ -1,0 +1,98 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "tasks",
+    "collectionId": "d70ec46d-a5a5-43df-9a3e-1138b46e708b",
+    "dateExported": "2024-12-02T16:40:28.766Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "2e246389-2bdb-4015-b67d-0218f942ee84",
+            "colId": "d70ec46d-a5a5-43df-9a3e-1138b46e708b",
+            "containerId": "",
+            "name": "Create Task",
+            "url": "http://localhost:4000/api/tasks",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-12-01T19:29:52.819Z",
+            "modified": "2024-12-01T21:11:43.403Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"taskname\": \"tarea 1\",\n  \"description\": \" Es un ejemplo de una tarea normal\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7e4cd625-0406-4ca7-97e5-8c5f90fa3895",
+            "colId": "d70ec46d-a5a5-43df-9a3e-1138b46e708b",
+            "containerId": "",
+            "name": "Getall Tasks",
+            "url": "http://localhost:4000/api/tasks",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-12-01T21:47:39.139Z",
+            "modified": "2024-12-01T21:48:09.409Z",
+            "headers": []
+        },
+        {
+            "_id": "ed11eb28-0b30-4d24-bb8d-843ec157bb55",
+            "colId": "d70ec46d-a5a5-43df-9a3e-1138b46e708b",
+            "containerId": "",
+            "name": "get Tas by Id",
+            "url": "http://localhost:4000/api/tasks/674ce7f5763e7842d99e24af",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-12-01T21:56:39.353Z",
+            "modified": "2024-12-01T22:49:34.037Z",
+            "headers": []
+        },
+        {
+            "_id": "79ad39f4-3883-4b9d-b31f-4a473bf77e0f",
+            "colId": "d70ec46d-a5a5-43df-9a3e-1138b46e708b",
+            "containerId": "",
+            "name": "update Task",
+            "url": "http://localhost:4000/api/tasks/674ce7f5763e7842d99e24af",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-12-01T22:15:49.290Z",
+            "modified": "2024-12-01T22:49:39.970Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"taskname\": \"tarea uipdate\",\n  \"description\": \" Es un ejemplo de una tarea normal update\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bb6fa0a5-9f6f-4a31-86b0-001c171b303a",
+            "colId": "d70ec46d-a5a5-43df-9a3e-1138b46e708b",
+            "containerId": "",
+            "name": "delete Task",
+            "url": "http://localhost:4000/api/tasks/674ce7f5763e7842d99e24af",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-12-01T22:24:34.799Z",
+            "modified": "2024-12-01T22:50:23.351Z",
+            "headers": []
+        },
+        {
+            "_id": "4ba82f33-15d6-4d32-894a-e96eba002799",
+            "colId": "d70ec46d-a5a5-43df-9a3e-1138b46e708b",
+            "containerId": "",
+            "name": "update Task status",
+            "url": "http://localhost:4000/api/tasks/674ce7f5763e7842d99e24af/status",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-12-01T22:47:28.468Z",
+            "modified": "2024-12-01T22:50:11.723Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"status\": \"completed\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "DEAnKGlIrymbKb5X4-KAAsMWUx06cFP0447jHtEaRf5jgRcbhw7y-fu5_8YZXWwzVG3OETyjf9JfKk7vJ8zfSw"
+}
